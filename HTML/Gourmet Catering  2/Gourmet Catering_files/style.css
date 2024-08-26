@@ -1,0 +1,215 @@
+ .body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: cornsilk;
+ }
+
+ .hero {
+     height: 100vh;
+     width: 100%;
+     background-image: url("/images/burger.jpg");
+     background-size: cover;
+     background-position: center;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .logo {
+     color: white;
+     font-size: 50px;
+     letter-spacing: 1px;
+     cursor: poin;
+ }
+
+ nav ul li {
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px 25px;
+ }
+
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: capitalize;
+ }
+
+ nav ul li a:hover {
+     color: darkcyan;
+     transition: .4s;
+ }
+
+ .btn {
+     background-color: white;
+     color: purple;
+     text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bolder;
+     padding: 10px 25px;
+     border-radius: 20px;
+     transition: transform .4s;
+     width: 200px;
+     max-width: 100%;
+     position: absolute;
+     display: inline-block;
+     bottom: 6px;
+     right: 2px;
+ }
+
+ .btn:hover {
+     transform: scale(1.2);
+ }
+
+ .padd {
+     padding-top: 50px;
+ }
+
+ .marg {
+     padding-bottom: 50px;
+ }
+
+ img.align-left {
+     float: left;
+     width: 400px;
+     height: 500px;
+     padding-left: 60px;
+     margin-right: 20px;
+     padding-right: 20px;
+ }
+
+ .about {
+     width: 100%;
+     padding: 100px 0px;
+     background-color: papayawhip;
+ }
+
+ .about img {
+     height: 550px;
+     width: 500px;
+ }
+
+ text {
+     width: 550px;
+ }
+
+ .main {
+     width: 1000px;
+     max-width: 95%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ h2 {
+     color: darkmagenta;
+     font-size: 75px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+ }
+
+ h5 {
+     color: black;
+     letter-spacing: 2px;
+     font-size: 22px;
+     margin-bottom: 25px;
+     text-transform: capitalize;
+ }
+
+ P {
+     color: black;
+     letter-spacing: 1px;
+     line-height: 28px;
+     font-size: 18px;
+     margin-bottom: 45px;
+ }
+
+ .title {
+     height: 150vh;
+     width: 100%;
+     background-image: url("/images/th\ \(1\).jpg");
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+
+ .text-grey {
+     color: black;
+     position: 2px;
+ }
+
+ h5 {
+     color: darkmagenta;
+     letter-spacing: 2px;
+     font-size: 40px;
+     margin-bottom: 25px;
+     text-transform: capitalize;
+ }
+
+ h1 {
+     color: black;
+     letter-spacing: 2px;
+     font-size: 50px;
+     margin-inline: 25px;
+     text-transform: uppercase;
+     text-decoration: underline;
+     text-align: center;
+ }
+
+ .detail {
+     width: 100%;
+     padding: 100px 0px;
+     background-color: papayawhip;
+ }
+
+ h1 {
+     color: darkmagenta;
+ }
+
+ fieldset {
+     border-style: double;
+     border-width: 20px 6px 8px 12px;
+     background-color: navajowhite;
+     width: 300px;
+     height: 300px;
+ }
+
+ legend {
+     color: black;
+     font-size: 35px;
+ }
+
+ footer {
+     position: relative;
+     width: 100%;
+     height: 200px;
+     background-color: coral;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: 30px;
+     color: purple;
+     margin-bottom: 20px;
+     font-weight: bold;
+ }
+
+
+
+
+
+
+
+
+
+ #footer {
+     padding: 20px;
+ }
+
+ .footer {
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
