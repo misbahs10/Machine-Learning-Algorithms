@@ -1,0 +1,16 @@
+{
+  "name": "tuple",
+  "version": "1.0.0",
+  "main": "tuple.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tuple": "^5.3.0"
+  },
+  "description": ""
+}
