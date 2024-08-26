@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <h2 id="head">
+            This is a heading
+        </h2>
+    </div>
+    <br>
+    <div class="container">
+        This is another container
+    </div>
+    <script>
+        let main = document.getElementById("main");
+        console.log(main);
+
+        let heading = document.createElement("h1");
+        heading.innerHTML = "This is a heading";
+
+        main.appendChild(heading);
+        let div = document.createElement("div");
+        div.innerHTML = "This is a div";
+        main.appendChild(div);
+
+        let divs = document.getElementsByClassName("container");
+        console.log(divs);
+
+        let head = document.getElementById("head");
+        head.style.color = "red";
+        console.log(head);
+
+        let sel = document.querySelector(".container");
+        console.log("Selector returns ", sel);
+
+        let selAll = document.querySelectorAll(".container");
+        console.log("Selector All returns ", selAll);
+    </script>
+</body>
+
+</html>

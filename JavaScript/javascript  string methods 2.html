@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript | String Methods</title>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <div id="container"></div>
+    <div id="content"></div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio laboriosam amet nam porro, exercitationem
+        iste iusto reiciendis veritatis voluptatibus voluptatem dignissimos dolorum obcaecati eos deleniti modi libero
+        in delectus!</p>
+    <script>
+        let string = "It's";
+        console.log(string);
+        let name = "Misbah";
+        console.log(name);
+        let channel = 'Web Development';
+        console.log(channel);
+        let message = "Misbah is a girl";
+        console.log(message);
+        let temp = `${name} is a very powerful and she has a channel called ${channel}`;
+        console.log(temp);
+
+        let len = channel.length;
+        console.log(`Length of channel is ${len}`);
+
+        console.log("Hello World \n and \t Misbah\bthis");
+        // \n - It is represented by New Line.
+        // \t - long Space.
+        // \\ - to get 1 Backslash(\) in print.
+        // \b - Backspace.
+
+        let x = new String("My name is 'Misbah'");
+        console.log(x);
+
+        document.getElementById('content').innerHTML = '<h2>this is a heading</h2>'
+
+        document.getElementById('container').innerHTML = '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quasi, harum deleniti ex eius, nam fuga repellat illum, animi tempore est sequi eum?</p>'
+    </script>
+</body>
+
+</html>

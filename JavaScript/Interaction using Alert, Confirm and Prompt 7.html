@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using Alert, Confirm and Prompt</title>
+</head>
+
+<body>
+    <h1>
+        Lorem ipsum dolor sit.
+    </h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis cupiditate voluptatum possimus accusamus
+    rerum enim ipsa sint, sunt itaque iure dicta obcaecati fuga illo iste velit quae consectetur eaque?
+    <script>
+        // Alert in in-browser JavaScript - Does not return any value
+        alert("Welcome to the World");
+
+        // Prompt in in-browser JavaScript - Returns a string value
+        let name = prompt("Enter your name");
+        alert("Hello " + name);
+
+        let age = prompt("Enter your age");
+        if (age < 18) {
+            alert("You are not eligible to vote");
+            console.log(age);
+        }
+
+        // Confirm in in-browser JavaScript - Returns a boolean value
+        let result = confirm("Are you sure you want to delete this file?");
+        if (result) {
+            alert("File deleted successfully");
+            console.log(result);
+        } else {
+            alert("File not deleted");
+        }
+
+
+    </script>
+</body>
+
+</html>

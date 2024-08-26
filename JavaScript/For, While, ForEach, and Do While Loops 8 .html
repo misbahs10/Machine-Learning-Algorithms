@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For, While, ForEach, and Do While Loops</title>
+</head>
+
+<body>
+    <h3>
+        This is a for loop that will print out the numbers 1-10
+    </h3>
+    <script>
+        // let i = 0;
+        // for (i = 0; i < 5; i++) {
+        // console.log(i);
+        // }
+
+        let dramas = ["All of us are death", "The princess and the wolf king", "Meteor garden"];
+        for (let index = 0; index < dramas.length; index++) {
+            console.log("Best kdrama", + dramas[index]);
+        }
+
+        dramas.forEach(function d(element) {
+            console.log("Best kdrama", + element + " in Javascript");
+        })
+
+        for (element of dramas) {
+            console.log("Best kdrama", + element + " in Js again");
+        }
+
+        let employee = {
+            name: "John",
+            age: 25,
+            salary: 100000
+        }
+        // use this for in loop to print out the key and value of the object 
+        for (key in employee) {
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+
+        // While loop in Javascript
+        let i = 0;
+        while (i < 4) {
+            console.log(`${i} j is less than five`);
+            i++;
+        }
+
+        // Do while loop in Javascript
+        let j = 34;
+        do {
+            console.log(`${j} is less than 35`);
+            j++;
+        }
+        while (j < 35);
+        // Break and Continue in Javascript
+        let k = 0;
+        while (k < 10) {
+            if (k === 5) {
+                break;
+            }
+            console.log(`${k} is less than 10`);
+            k++;
+        }
+
+    </script>
+</body>
+
+</html>

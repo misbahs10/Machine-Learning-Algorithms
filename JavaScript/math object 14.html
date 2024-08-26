@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object in JS</title>
+</head>
+
+<body>
+    <div class="span">
+        <h2>
+            this is the span.
+        </h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate nobis officiis, deserunt sit maxime.
+        Aliquid, laboriosam deleniti pariatur, sequi ea possimus eaque autem optio, facilis veniam quaerat ab.
+        Reprehenderit.
+    </div>
+    <script>
+        let span = document.querySelector('.span');
+        console.log(span);
+
+        let spanHeight = span.clientHeight;
+        let spanWidth = span.clientWidth;
+        console.log(spanHeight, spanWidth);
+
+        // printing the Math object
+        let m = Math;
+        console.log(m);
+
+        // printing the height and width of the element using the clientHeight and clientWidth
+        let random = m.random();
+        console.log(random);
+
+        // printing the constants form the Math object
+        console.log('The value of Math.LN10 is ', Math.LN10);
+        console.log('The value of Math.PI is ', Math.PI);
+        console.log('The value of Math.LOG10E is ', Math.LOG10E);
+        console.log('The value of Math.SQRT2 is ', Math.SQRT2);
+        console.log('The value of Math.E is ', Math.E);
+        console.log('The value of Math.LN2 is ', Math.LN2);
+
+        // printing the function from the Math object
+        let a = 39.57770;
+        let b = 6754;
+        console.log("The value of a and b is ", a, b);
+        console.log("The value of a and b is ", Math.round(a), Math.round(b));
+
+        console.log("4 raised to the power of 2 is ", Math.pow(4, 2));
+        console.log("7 raised to the power of 5 is ", Math.pow(7, 5));
+        console.log("9 raised to the power of 1 is ", Math.pow(9, 1));
+        console.log("6 raised to the power of 3 is ", Math.pow(6, 3));
+
+        console.log("Square root of 48 is ", Math.sqrt(48));
+        console.log("Square root of 29 is ", Math.sqrt(29));
+        console.log("Square root of 68 is ", Math.sqrt(68));
+        console.log("Square root of 50 is ", Math.sqrt(50));
+
+        // ceil and floor
+        console.log("49.7 rounded up to nearest integer is ", Math.ceil(49.7));
+        console.log("49.7 rounded down to nearest integer is ", Math.floor(49.7));
+
+        // Absolute function
+        console.log("The absolute value of -10 is ", Math.abs(-10));
+        console.log("The absolute value of 10 is ", Math.abs(10));
+
+        // Trigonometric functions
+        console.log("The value of sin 30 is ", Math.sin(30));
+        console.log("The value of cos 30 is ", Math.cos(30));
+        console.log("The value of tan 30 is ", Math.tan(30));
+
+        // Minimum and Maximum function
+        console.log('Minimum value of 5, 7, 25 is ', Math.min(5, 7, 25));
+        console.log('Maximum value of 23, 78, 5 is ', Math.min(23, 78, 5));
+
+        // Generating random numbers
+        let randomNumber = Math.random();
+        // Random numbers between (a, b) = a + (b-a)*Math.random()
+        let a1 = 2;
+        let b1 = 10;
+        let randomNumber1_34 = 10 + (20 - 10) * Math.random();
+        console.log("The random number is ", randomNumber);
+        console.log("The random number is ", randomNumber1_34);
+    </script>
+</body>
+
+</html>

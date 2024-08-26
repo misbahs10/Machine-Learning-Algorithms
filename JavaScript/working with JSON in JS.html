@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working with JSON in JavaScript</title>
+</head>
+
+<body>
+    <div id="text">
+        <h2>
+            Lorem, ipsum dolor.
+        </h2>
+        This is my text
+    </div>
+    <script>
+        // let text = document.getElementById("text");
+        // let textJSON = JSON.stringify(text);
+        // console.log(textJSON);
+
+        // let textObj = JSON.parse(textJSON);
+        // console.log(textObj);
+        // console.log(textObj.innerHTML);
+
+        let jsonObj = {
+            name: "John",
+            age: 20,
+            city: "New York"
+        }
+        console.log(jsonObj);
+
+        let jsonObjString = JSON.stringify(jsonObj);
+        console.log(jsonObjString);
+
+        jsonObjString = jsonObjString.replace("john", "billgates");
+        console.log(jsonObjString);
+
+        newjsonObjString = JSON.parse(jsonObjString);
+        console.log(newjsonObjString);
+    </script>
+</body>
+
+</html>

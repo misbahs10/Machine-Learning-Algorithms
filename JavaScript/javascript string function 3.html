@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Functions</title>
+</head>
+
+<body>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ex sapiente distinctio minus cupiditate, quaerat
+        suscipit iusto quae nulla necessitatibus nostrum aliquam delectus officia quisquam animi esse fugit doloribus
+        officiis!</p>
+    <script>
+        let str = "This is a String";
+        console.log(str);
+
+        // Fisrt occirence of a Substring.
+        let position = str.indexOf('ring');
+        console.log(position);
+
+        // Last occirence of a Substring.
+        let positions = str.lastIndexOf('is');
+        console.log(positions);
+
+        // Substring from a string.
+        let substr = str.slice(5, 8);
+        console.log(substr);
+
+        let substring = str.substring(6, 10);
+        console.log(substring);
+
+        let replaced = str.replace('String', 'Word');
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        let x = 'number and';
+        console.log(x);
+
+        let newstr = x.concat('\bboolean');
+        console.log(newstr);
+
+        let index = "        this is container      white space"
+        console.log(index);
+        console.log(index.trim());
+
+        let char = str.charAt(3);
+        console.log(char);
+        // not very important.
+        let char1 = str.charCodeAt(7);
+        console.log(char1);
+
+        console.log(str[3]);
+    </script>
+</body>
+
+</html>

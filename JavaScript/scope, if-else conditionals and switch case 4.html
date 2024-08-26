@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope | if-else conditionals & switch case in JavaScript</title>
+</head>
+
+<body>
+    <h3>Lorem, ipsum.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestiae minus cupiditate earum reiciendis
+        exercitationem ex culpa beatae aspernatur. Ex officiis, dolorum ea minima quia quos quod magni debitis cum.</p>
+    <script>
+        // var ---> can be Redeclared and Reassgin.
+        var string = "this is a string";
+        console.log(string);
+        var string = 'this is a string2';
+        console.log(string);
+
+        // let ---> cannot be Redeclared in the same scope but, Reassgin can.
+        let x = true;
+        console.log(x);
+        let y = false;
+        console.log(y);
+
+        // const ---> cannot be Redeclared and Reassgin.
+        const str = "this is a new str";
+        console.log(str);
+        const z = "my name is misbah";
+        console.log(z);
+
+        let age = 10;
+        if (age > 20) {
+            console.log('you can drink soda');
+        }
+        else if (age == 5) {
+            console.log('age is 5')
+        }
+        else (age < 10); {
+            console.log('you can drink water');
+        }
+
+        let day = "wednesday";
+        switch (day) {
+            case "monday":
+                console.log('the value of days is monday');
+                break;
+
+            case 'tusday':
+                console.log('the value of days is tusday');
+                break;
+
+            case 'wednesday':
+                console.log('the value of days is wednesday');
+                break;
+
+            default:
+                console.log("the value of days is none of monday tusday wednesday");
+                break;
+        }
+    </script>
+</body>
+
+</html>
