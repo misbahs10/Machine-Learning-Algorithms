@@ -1,0 +1,2 @@
+Hello, world!	I want to learn JS tomorrow.
+Then I'll move to TypeScript.
