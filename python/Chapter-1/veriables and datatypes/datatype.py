@@ -5,7 +5,7 @@
 # boolean : True, False
 # none : a = none
 
-integer = -37
+integer = 37
 print(integer)
 
 string = '''Vincenzo'''
