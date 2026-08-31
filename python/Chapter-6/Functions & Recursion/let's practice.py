@@ -67,3 +67,15 @@ def print1_list(list, idx=0):
 fruits = ["mango", "litchi", "apple", "banana"]
 
 print1_list (fruits)
+
+# Q17. Write a function that takes a list and prints the largest element.
+
+def print_largest(values):
+
+    if len(values) == 0:
+        print("List is empty")
+        return
+    print("Largest element:", max(values))
+
+numbers = [12, 45, 7, 89, 34]
+print_largest(numbers)
